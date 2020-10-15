@@ -52,14 +52,48 @@ header .container nav a
  	color: red;
  	text-decoration: none;
  	margin: 0 15px;
-
  }
+
+footer
+{
+	background-color: black;
+	color: white;
+	padding-top: 60px;
+}
+
+footer .barra-footer
+{
+	background-color: grey;
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: : 20px;
+	padding-bottom: 20px;
+}
+
+footer .logo-footer
+{
+	width: 100%;
+}
+
+footer ul
+{
+	padding-left: 0;
+	list-style: none;
+}
+
+footer p
+{
+	color: white;
+	margin-bottom: 30px;
+}
 
  .boton
  {
  	text-align: center;
  	text-decoration: none;
  	padding: 15px 20px;
+ 	border: none;
  }
 
  .boton.boton-rojo
@@ -77,6 +111,20 @@ header .container nav a
  	font-size: 16px;
  	font-weight: bold;
  	border: 1px solid red;
+ }
+
+  .boton.boton-negro
+ {
+ 	background-color: black;
+ 	color: white; 
+ 	font-size: 20px;
+ 	font-weight: bold;
+ }
+
+ .boton.boton-negro:hover
+ {
+ 	background-color: white;
+ 	color: black; 
  }
 
 .seccion
@@ -138,6 +186,11 @@ position: relative;
 	padding-left: 15px;
 }
 
+.columna-25
+{
+	width: 25%;
+}
+
 .columna-33
 {
 	width: 33.33%;
@@ -161,6 +214,11 @@ position: relative;
 .empujar-58
 {
 	margin-left: 58.33%;
+}
+
+.empujar-66
+{
+	margin-left: 66.66%;
 }
 
 .empujar-0
@@ -332,4 +390,9 @@ font-size: 16px;
 border: 1px solid grey; 
 width: 100%;
 padding: 5px 10px;
+}
+
+#contactenos form .form-block.bloque-ultimo
+{
+margin-bottom: 0;
 }

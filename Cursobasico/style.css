@@ -13,6 +13,7 @@ a
 
 {
 	display: inline-block;
+	text-decoration: none;
 
 }
 
@@ -82,10 +83,31 @@ footer ul
 	list-style: none;
 }
 
+footer ul li
+{
+	margin-bottom: 10px;
+}
+
 footer p
 {
 	color: white;
 	margin-bottom: 30px;
+}
+
+footer a
+{
+	color: white;
+}
+
+footer .redes
+{
+	font-size: 30px;
+	display: flex;
+}
+
+footer .redes a
+{
+	margin: 0 7.5px;
 }
 
  .boton

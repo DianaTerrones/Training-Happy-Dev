@@ -181,17 +181,15 @@ footer .redes a
 }
 
  .container
-
 {
 width:  1140px;
 margin: 0 auto 0 auto;
-padding-right: 15px
+padding-right: 15px;
 padding-left: 15px;
 position: relative;
 }
 
 .container-fluid
-
 {
 width:  100%;
 padding-right: 15px;
@@ -262,16 +260,10 @@ position: relative;
 #inicio img
 
 {
-	wigth: 100%;
+	width: 100%;
 	display: block;
 }
 
-#inicio img
-
-{
-	wigth: 100%;
-	display: block;
-}
 
 #inicio .bloque-inicio
 {
@@ -466,6 +458,26 @@ margin-bottom: 0;
 		color: red;
 	}
 
+	form .boton.boton-negro
+
+{
+	width: 100%;
+}
+
+footer
+{
+	text-align: center;
+}
+
+footer .logo-footer
+{
+	width: 50%;
+}
+
+footer .redes
+{
+	justify-content: center;
+}
 	.container
 	{
 		width: 100%;
@@ -481,6 +493,16 @@ margin-bottom: 0;
 		width: 50%;
 	}
 
+	.empujar-mobile-0
+{
+	margin-left: 0;
+}
+
+.sinpadding-mobile
+{
+	padding: 0;
+}
+
 	#inicio
 	{
 		height: 100vh;
@@ -495,5 +517,15 @@ margin-bottom: 0;
 
 	#servicios .bloque-servicio {
 		margin-bottom: 15px;
+	}
+
+	#contactenos {
+		padding: 0;
+	}
+
+	#contactenos iframe
+	{
+		position: relative;
+		height: 50vh;
 	}
 }

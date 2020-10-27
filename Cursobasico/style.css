@@ -58,6 +58,7 @@ header .container nav a
  header .container .hamb
 	{
 		display: none;
+		position: relative;
 	}
 
 footer
